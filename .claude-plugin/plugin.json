@@ -2,7 +2,7 @@
   "name": "windowedge",
   "displayName": "WindowEdge",
   "version": "1.0.0",
-  "description": "Run your window and door dealership from Claude: briefings, rep scorecards, marketing reviews, customer history, at-risk customers, diagnostics and confirmed bookings, from your live WindowEdge data.",
+  "description": "Run your window and door dealership from Claude with WindowEdge (windowedge.ai): briefings, rep scorecards, marketing reviews, customer history, at-risk customers, diagnostics and confirmed bookings, from your live WindowEdge data.",
   "author": {
     "name": "WindowEdge",
     "email": "support@windowedge.ai",
@@ -17,6 +17,9 @@
   "documentationUrl": "https://windowedge.ai/connect-to-claude/",
   "keywords": [
     "windowedge",
+    "windowedge.ai",
+    "window edge",
+    "window-edge",
     "windows",
     "doors",
     "dealer",
@@ -24,6 +27,9 @@
     "crm",
     "sales",
     "appointments",
-    "marketing"
+    "marketing",
+    "window dealer",
+    "door dealer",
+    "contractor"
   ]
 }
