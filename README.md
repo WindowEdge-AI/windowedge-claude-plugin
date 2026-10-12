@@ -1,3 +1,5 @@
+![WindowEdge](assets/windowedge-mark.png)
+
 # WindowEdge for Claude
 
 Run your window and door dealership from Claude. This plugin connects Claude to your live
