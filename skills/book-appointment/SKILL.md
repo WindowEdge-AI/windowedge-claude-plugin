@@ -26,8 +26,9 @@ rep.
    - the same `appointmentTypeId`
    - the slot's `startIso` as `scheduledFor`
    - the slot's `durationMinutes` as `durationMinutes`
-   - the slot's `salesRepId`, if it has one, as `assignedSalesRepId`. Do not assign a rep that the
-     slot was not checked for.
+   - the rep as `assignedSalesRepId`: the slot's `salesRepId` if the slot has one; otherwise the
+     `salesRepId` you passed to `get_availability` in step 4. If you passed no rep and the slot
+     names none, leave it out. Never assign a rep whose availability you did not check.
 
 If the user changes the type, the rep or the day, call `get_availability` again before you
 prepare the booking.
@@ -39,8 +40,9 @@ prepare the booking.
 1. Show the user the recap and the side effects, for example a confirmation email or text to the
    homeowner, CRM sync and calendar updates.
 2. Wait for an explicit yes from the user.
-3. Call `confirm_action` with the token and toolName from that confirmation block.
-4. Report the appointmentId and the time in the business timezone.
+3. Call `confirm_action` with both the `token` and the `toolName` from that confirmation block.
+4. Only if `confirm_action` returns `ok: true`, report the appointmentId and the time in the
+   business timezone. Otherwise tell the user it was not booked and why.
 
 If the user changes the slot, the type or the rep, prepare a new booking and confirm again. If the
 token expires (5 minutes), prepare it again.

@@ -18,8 +18,8 @@ Input: a look-back window in days (default 30).
    both with `sinceDays` = N.
 6. Call `list_voice_calls` with `filter` = `flagged` and `sinceDays` = N.
 7. Call `get_pipeline_status` with `stalledAfterDays` = 21 for stalled projects and the oldest
-   open quotes. Count a quote as at risk only when the result shows its age or days in stage. A
-   quote status alone is not a risk signal.
+   open quotes. Count a project as at risk only when the result marks it stalled (21 days or more
+   in one stage). Being in the oldest-quotes list, or having a quoted status, is not enough.
 
 ## Write the answer
 
