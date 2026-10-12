@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "windowedge": {
+      "type": "http",
+      "url": "https://mcp.windowedge.ai/mcp"
+    }
+  }
+}

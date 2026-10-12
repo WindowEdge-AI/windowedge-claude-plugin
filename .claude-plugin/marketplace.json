@@ -1,0 +1,16 @@
+{
+  "name": "windowedge",
+  "description": "WindowEdge plugins for Claude.",
+  "owner": {
+    "name": "WindowEdge",
+    "email": "support@windowedge.ai",
+    "url": "https://windowedge.ai"
+  },
+  "plugins": [
+    {
+      "name": "windowedge",
+      "source": "./",
+      "description": "Run your window and door dealership from Claude with your live WindowEdge data."
+    }
+  ]
+}

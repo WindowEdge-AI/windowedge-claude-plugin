@@ -1,0 +1,25 @@
+{
+  "name": "windowedge",
+  "displayName": "WindowEdge",
+  "version": "1.0.0",
+  "description": "Run your window and door dealership from Claude: briefings, rep scorecards, marketing reviews, customer history, at-risk customers, diagnostics and confirmed bookings, from your live WindowEdge data.",
+  "author": {
+    "name": "WindowEdge",
+    "email": "support@windowedge.ai",
+    "url": "https://windowedge.ai"
+  },
+  "homepage": "https://windowedge.ai/connect-to-claude/",
+  "repository": "https://github.com/WindowEdge-AI/windowedge-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "windowedge",
+    "windows",
+    "doors",
+    "dealer",
+    "home-improvement",
+    "crm",
+    "sales",
+    "appointments",
+    "marketing"
+  ]
+}
