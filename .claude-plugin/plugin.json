@@ -12,6 +12,9 @@
   "repository": "https://github.com/WindowEdge-AI/windowedge-claude-plugin",
   "license": "MIT",
   "privacyPolicyUrl": "https://windowedge.ai/privacy/",
+  "termsOfServiceUrl": "https://windowedge.ai/terms/",
+  "supportUrl": "https://windowedge.ai/support/",
+  "documentationUrl": "https://windowedge.ai/connect-to-claude/",
   "keywords": [
     "windowedge",
     "windows",
