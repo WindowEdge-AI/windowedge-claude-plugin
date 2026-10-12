@@ -15,8 +15,9 @@ Inputs: the rep's name, and a look-back window in days (default 30).
    team.
 4. Call `query_analytics` with `metric` = `rep_utilization`, `periodStart` and `periodEnd` for
    the same window (YYYY-MM-DD), and `groupBy` = `["sales_rep"]`. Read this rep's row.
-5. Call `get_schedule` with `rep` = the rep's name, `start` = today and `end` = 13 days from
-   today (YYYY-MM-DD). Use its per-rep count for upcoming appointments.
+5. Call `get_schedule` with `rep` = the rep's name, `start` = tomorrow and `end` = 14 days from
+   today (YYYY-MM-DD). Use its per-rep count for upcoming appointments. Start tomorrow because
+   today's list also holds appointments that already happened.
 6. Call `list_projects` with `status` = `open`, the rep's `salesRepId` and `limit` = 100. If it
    returns 100 projects, the list is cut off: report the value as "at least" that amount, and say
    the full total is not available.
