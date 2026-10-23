@@ -67,7 +67,7 @@ in Claude, or revoke it in the WindowEdge console under **Settings > MCP Keys**.
 The standard sign-in never grants write access. To let Claude prepare changes (contacts,
 appointments, ad spend), a WindowEdge administrator creates a write-enabled connection in the
 WindowEdge console under **Settings > MCP Keys**, and chooses only the write scopes the business
-wants (`customers:write`, `appointments:write`, `marketing:write`):
+wants (`customers:write`, `appointments:write`, `marketing:write`, `support:write`):
 
 - **claude.ai and Claude Desktop:** create an **OAuth client** with the redirect URI
   `https://claude.ai/api/mcp/auth_callback`. In Claude, add a custom connector for
@@ -115,6 +115,11 @@ and contact details: [windowedge.ai/privacy](https://windowedge.ai/privacy/). Se
 [PRIVACY.md](PRIVACY.md). Privacy questions: privacy@windowedge.ai.
 
 ## Support
+
+Ask Claude to list your requests, show a CS ticket's published progress, or review conversation feedback outcomes. Support Read permission is required. An administrator can request the organization view. Opening a request requires Support Write and your confirmation. Existing connections keep their permissions; reconnect or create an explicitly scoped connection to add access. These tools cannot expose internal notes or change ticket status or tenant assignment.
+
+Use `/windowedge:support` in Claude Code. If support tools are unavailable on your connection, use the signed-in WindowEdge Support page or email below.
+
 
 - Email: support@windowedge.ai
 - Help: [windowedge.ai/support](https://windowedge.ai/support/)
