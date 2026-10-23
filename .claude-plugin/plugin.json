@@ -1,7 +1,7 @@
 {
   "name": "windowedge",
   "displayName": "WindowEdge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Run your window and door dealership from Claude with WindowEdge (windowedge.ai): briefings, rep scorecards, marketing reviews, customer history, at-risk customers, diagnostics and confirmed bookings, from your live WindowEdge data.",
   "author": {
     "name": "WindowEdge",

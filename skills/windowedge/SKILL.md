@@ -38,6 +38,9 @@ the in-app assistant, gives in the console.
 | This morning's stand-up with names | `get_daily_brief` |
 | Any other number | `list_metrics`, then `query_analytics` |
 | How to do something in the console | `search_feature_docs`, then `get_feature_doc` |
+| Open a WindowEdge support request | `create_support_request`, then confirmation |
+| My CS tickets and their progress | `list_support_requests`, then `get_support_request` |
+| Conversation feedback outcomes | `list_support_feedback` |
 
 Do not compute business metrics by hand from list tools. If no tool returns a number, say that
 you could not measure it. Never estimate, round up or invent a figure.
